@@ -13,7 +13,7 @@ import time
 #import dataset
 dataset_columns = ["target", "ids", "date", "flag", "user", "text"]
 dataset_encode = "ISO-8859-1"
-data = pd.read_csv(r"D:\Users\Helin\anaconda3\depression\depressiondetection\2009trainingdata.csv", encoding = dataset_encode, names = dataset_columns)
+data = pd.read_csv('C:\\Users\\Helin\\PycharmProjects\\pythonProject\\tweet_data.csv', encoding = dataset_encode, names = dataset_columns)
 data.head()
 
 #data cleaning
